@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -25,7 +26,14 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Etner your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>CSS Box Model: Every HTML element is a box. Everything in CSS has a box around it. Margin>Border>Padding>Content.</li>
+          <li>Inline CSS: Style directly in the HTML file. Useful for quick and permanent changes, but less flexible. Each inline style must be edited individially when you make a design change. Use style attribute in HTML.</li>
+          <li>Internal CSS Style Sheet: Embed sheet in HTML using style element in head. The rules will only apply to that page. A single change to CSS rule will apply to all tagged page elements.
+          </li>
+          <li>External CSS Style Sheet: Preferred method to CSS, keeps all CSS rules in separate file. Once completed, you link the file using a link element in the head element.</li>
+          <li>CSS can be applied to text and images.</li>
         </ul>
       </section>
       <section class="card" id="git-section">
@@ -37,10 +45,10 @@
           <li>git checkout -b branch-name: creates a new branch called branch-name and switches to it.</li>
           <li>git checkout -b feature/branch-name: create a new feature branch called branch-name.</li>
           <li>git checkout main: switch to your main branch.</li>
-          <li>git pull origin main: pulls down the latest main branch from GitHub repo. Always do a git pull so that you have the latest version of the project on your local computer.</li>
-          <li>git push origin feature/branch-name: push changes we made locally to our remote GitHub branch. You can view the new feature branch on GitHub.</li>
-          <li>git add -A:Add the changed files in our working directory to the staging area of Git. We use add -A command to commit all files in the working branch.</li>
-  
+          <li>git pull origin main: pulls down the latest main branch from GitHub repo. Always do a git pull so that you have the latest version of the project on your local computer. Use this to also sync our local branch with the remote branch in GitHub.</li>
+          <li>git push origin feature/branch-name: Once confirmed that our local and remote branch are in synch, push changes we made locally to our remote GitHub branch. You can view the new feature branch on GitHub.</li>
+          <li>git add -A:Add the changed files in our working directory to the staging area of Git. We use add -A command to commit all files in the working branch. Once all changes have been staged, we can commit them to our repo.</li>
+          <li>git commit -m "added code to HTML file": Use this to commit the changes. The -m flag associates a message with our commit. Commit messages should be short description of the changes implemented.</li>
         </ul>
       </section>
       <section class="card" id="javascript-section">  
