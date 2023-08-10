@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -41,20 +42,30 @@
         <ul>
           <li>Git is a version control software. It lets you manage and track your version controls locally, where you then upload into GitHub, a cloud hosting service.</li>
           <li>When coding git: always start the command line with "git".</li>
+          <li>Git workflow: Create feature branch, make changes to the feature branch, save, add the changes, commit with a short but detailed comment, push your work to the feature branch, open pull request, merge changes with main branch, then close issue.</li>
           <li>git status: checks what branch we currently on.</li>
           <li>git checkout -b branch-name: creates a new branch called branch-name and switches to it.</li>
           <li>git checkout -b feature/branch-name: create a new feature branch called branch-name.</li>
           <li>git checkout main: switch to your main branch.</li>
-          <li>git pull origin main: pulls down the latest main branch from GitHub repo. Always do a git pull so that you have the latest version of the project on your local computer. Use this to also sync our local branch with the remote branch in GitHub.</li>
-          <li>git push origin feature/branch-name: Once confirmed that our local and remote branch are in synch, push changes we made locally to our remote GitHub branch. You can view the new feature branch on GitHub.</li>
-          <li>git add -A:Add the changed files in our working directory to the staging area of Git. We use add -A command to commit all files in the working branch. Once all changes have been staged, we can commit them to our repo.</li>
+          <li>git add -A: Add all changes. Add the changed files in our working directory to the staging area of Git. We use add -A command to commit all files in the working branch. Once all changes have been staged, we can commit them to our repo.</li>
           <li>git commit -m "added code to HTML file": Use this to commit the changes. The -m flag associates a message with our commit. Commit messages should be short description of the changes implemented.</li>
+          <li>git pull origin main: Pulls down the latest main branch from GitHub repo. Always do a git pull so that you have the latest version of the project on your local computer. Use this to also sync our local branch with the remote branch in GitHub.</li>
+          <li>git push origin feature/branch-name: Once confirmed that our local and remote branch are in synch, push changes we made locally to our remote GitHub branch. You can view the new feature branch on GitHub.</li>
+          <li>Create new pull request in GitHub, wait approval, merge, and close the issue.</li>
         </ul>
       </section>
       <section class="card" id="javascript-section">  
         <h2>Javascript</h2> 
         <ul>
-          <li>Enter your Javascript notes here</li>
+          <li>Variable: is a named container that allows us to store data in our code. We have variables so that we can do dynamic things.</li>
+          <li>Variable workflow: You declare a variable by giving it a name, you log the value of the variable to the console, you link the JS file to the HTML file, open up the browser and inspect the document and view Console.</li>
+          <li>Control flow: the order in which a computer executes code in a script.</li>
+          <li>Conditional statements: are code structures that test if an expression is true or not.</li>
+          <li>Function: is a packaged functionality that you can re-use later on.</li>
+          <li>Array: a single variable use to hold a group of data, data that is related in some way. This is useful for when you want to perform a task on multiple pieces of data at once. For example, var shapes can hold a triangle, square, pentagon, and circle. The var shapes is an array.</li>
+          <li>To access a specific item in the array, you need to have the location of the item and the item's unique number, or an index. The first item in any array is 0 and is sequential.</li>
+          <li>For loops: when the computer goes through each item in an array and logs them to the console automatically until no items are left. You need to determine starting point for the for loop, the condition, and allow the array to iterate over each item. This saves us time if we need to log many items in the console.</li>
+          <li>Function: a set of instructions that tells the computer how to perform a certain task. These do not automatically execute, you need to declare a function and then call the function by its name.</li>
         </ul>
       </section>
 
@@ -62,6 +73,8 @@
 
     <footer>
       <p>I can code!</p>
+  
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
